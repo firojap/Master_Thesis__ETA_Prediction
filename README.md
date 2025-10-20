@@ -3,7 +3,7 @@
 This is the repository of my Data Science master's degree thesis at Freie Universität Berlin
 
 ### Folder Description
-- **Data Preprocessing / ETL:** Contains all the notebook to preprocess the data for models implementation.
+- **Data Preprocessing / ETL:** Contains all the notebooks and codes to preprocess the data for models implementation. It also included Extract, Transform, and Load (ETL) for entire data engineering of the project.
 - **Data:** This folder contains the final data that have used in this thesis. 
 - **Exploratory Data Analysis:** This folder contains all notebooks for the EDA before and after outlier detection in all features of the final dataset.
 - **Feature Matrices:** Contains all feature matrices for the final data and sub dataset.
