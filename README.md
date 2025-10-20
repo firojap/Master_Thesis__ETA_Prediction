@@ -1,4 +1,5 @@
-# Data-Driven Modeling for ETA Prediction of Vessels in Inland Natural Waterways - M.Sc. Data Science Final Thesis of Firoj Ahmmed Patwary
+# Data-Driven Modeling for ETA Prediction of Vessels in Inland Natural Waterways
+#### An M.Sc. Data Science Final Thesis of Firoj Ahmmed Patwary
 
 ## ETA Prediction
 This is the repository of my Data Science master's degree thesis at Freie Universität Berlin
@@ -30,7 +31,7 @@ This is the repository of my Data Science master's degree thesis at Freie Univer
 __Figure:__ *SHAP summary plot for the BiLSTM model. Red dots represent the high values of each feature and blue dots represent the low values of each feature. The y-axis lists the features in order of their importance, with the most significant feature at the top. The x-axis represents the SHAP values, which indicate the magnitude and direction of each feature’s impact on the model’s output.*
 
 ### Final Manuscript:
-The final manuscript of the thesis can be download and view from [here](https://www.researchgate.net/publication/394027095_Data-Driven_Modeling_for_ETA_Prediction_of_Vessels_in_Inland_Natural_Waterways)
+The final manuscript of the thesis can be download and view from [here](https://www.researchgate.net/publication/394027095_Data-Driven_Modeling_for_ETA_Prediction_of_Vessels_in_Inland_Natural_Waterways).
 
 ### Citation:
 If you use or refer to this work, please cite it as follows:
