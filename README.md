@@ -1,5 +1,5 @@
 # Data-Driven Modeling for ETA Prediction of Vessels in Inland Natural Waterways
-#### An M.Sc. Data Science Final Thesis of Firoj Ahmmed Patwary
+#### An M.Sc. Data Science Final Thesis of [Firoj Ahmmed Patwary](www.firoj.net)
 
 ## ETA Prediction
 This is the repository of my Data Science master's degree thesis at Freie Universität Berlin
