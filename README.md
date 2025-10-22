@@ -1,8 +1,59 @@
 # Data-Driven Modeling for ETA Prediction of Vessels in Inland Natural Waterways
 #### An M.Sc. Data Science Final Thesis of [Firoj Ahmmed Patwary](www.firoj.net)
+---
 
 ## ETA Prediction
 This is the repository of my Data Science master's degree thesis at Freie Universität Berlin
+
+---
+## Project Structure
+
+```
+ETA_prediction/
+│
+├── data/
+│   └── main_data.csv
+│
+├── data_preprocessing/
+│   ├── web_data_scrapping.py
+│   ├── data_preprocessing.ipynb
+│   ├── target_column_generator.ipynb
+│   └── csv_file_merge.py
+│
+├── exploratory_data_analysis/
+│   ├── EDA.ipynb
+│   ├── EDA_after_remove_outlier.ipynb
+│   ├── EDA_final.ipynb
+│   ├── EDA_one_vessel.ipynb
+│   ├── resting_time_finding.ipynb
+│   ├── segment_data_visualization.ipynb
+│   └── waiting_time_finding.ipynb
+│
+├── feature_matrix/
+│   ├── AIS/
+│   ├── AIS_weather/
+│   ├── AIS_weather_lock/
+│   └── All/
+│
+├── Figures/
+│   └── (figures and plots generated from analyses)
+│
+├── lock_data_integration/
+│   └── (scripts and notebooks for lock data merging)
+│
+├── Models/
+│   ├── MLP.ipynb
+│   ├── BiLSTM.ipynb
+│   ├── 1DCNN.ipynb
+│   └── RNN.ipynb
+│
+├── Trip_generator/
+│   └── (scripts for generating vessel trips)
+│
+└── README.md
+
+```
+---
 
 ### Folder Description
 - **Data Preprocessing / ETL:** Contains all the notebooks and codes to preprocess the data for models implementation. It also included Extract, Transform, and Load (ETL) for entire data engineering of the project.
@@ -13,6 +64,7 @@ This is the repository of my Data Science master's degree thesis at Freie Univer
 - **Lock Data Integration:** Contains the notebook for the river lock data integration with the main data.
 - **Models:** Contains MLP, BiLSTM, GRU, and 1D-CNN models notebooks and hyperparameter tuning.
 - **Trip Generator:** Notebook for the successfull trip generator from one POI to the next consecutive POI.
+---
 
 ### Prediction Performance of All Models to the Test Dataset
 
@@ -24,20 +76,29 @@ This is the repository of my Data Science master's degree thesis at Freie Univer
 | **1D-CNN**|        108.40  |      33597.39 |      171.85   |      79980.45 |       129.61            |      43108.33           |      123.93                   |       41250.50                 |
 
 *Note: MAE in minutes and MSE in minutes².*
+---
 
 ### Feature Importance with SHAP:
 ![Summary Plot](https://github.com/firojap/Master_Thesis__ETA_Prediction/raw/master/Figures/summary_plot.png)
 
 __Figure:__ *SHAP summary plot for the BiLSTM model. Red dots represent the high values of each feature and blue dots represent the low values of each feature. The y-axis lists the features in order of their importance, with the most significant feature at the top. The x-axis represents the SHAP values, which indicate the magnitude and direction of each feature’s impact on the model’s output.*
 
+---
+
 ### Final Manuscript:
 The final manuscript of the thesis can be download and view from [here](https://www.researchgate.net/publication/394027095_Data-Driven_Modeling_for_ETA_Prediction_of_Vessels_in_Inland_Natural_Waterways).
+
+---
 
 ### Citation:
 If you use or refer to this work, please cite it as follows:
 
+---
+
 #### 🔹 APA Citation
 Patwary, F. A. (2024, August). *Data-driven modeling for ETA prediction of vessels in inland natural waterways* [Master’s thesis, Freie Universität Berlin]. ResearchGate. [https://doi.org/10.13140/RG.2.2.13255.41122](https://doi.org/10.13140/RG.2.2.13255.41122)
+
+---
 
 #### 🔹 BibTeX Citation
 ```bibtex
